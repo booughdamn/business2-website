@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellezza Style and Studio</title>
+    <style>
+        body {
+            background-color: #f5eef8; /* Set a colorful background color */
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #ff82a2; /* Set a header background color */
+            color: white;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .hero {
+            background-image: url('https://images.fresha.com/locations/location-profile-images/205104/199292/36e66cea-b546-4bf6-87a2-0fc62f12b62d.jpg?class=width-small'); /* Set a background image for the hero section */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .services {
+            background-color: #f7f3ff; /* Set a background color for the services section */
+            padding: 40px;
+        }
+        .about {
+            background-color: #ffffff; /* Set a background color for the about section */
+            padding: 40px;
+        }
+        .contact {
+            background-color: #f7f3ff; /* Set a background color for the contact section */
+            padding: 40px;
+        }
+        footer {
+            background-color: #ff82a2; /* Set a footer background color */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Bellezza Style and Studio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Your Beauty Destination</h2>
+        <p>Discover the latest trends in hair and beauty.</p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Haircuts and Styling</li>
+            <li>Manicures and Pedicures</li>
+            <li>Facials and Skincare</li>
+            <li>Makeup Application</li>
+        </ul>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We are a team of skilled professionals dedicated to making you look and feel your best. With years of experience, we provide top-quality hair and beauty services.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <address>
+            <p>123 Kathmandu</p>
+            <p>City, Nepal Code</p>
+            <p>Phone: 9800000000</p>
+            <p>Email: Belezaandstylestudio@gmail.com</p>
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Bellezza Style and Studio</p>
+    </footer>
+</body>
+</html>
